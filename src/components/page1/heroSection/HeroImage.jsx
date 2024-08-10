@@ -2,7 +2,11 @@ import React from 'react'
 
 const HeroImage = () => {
   return (
-    <div>HeroImage</div>
+    <div className='h-full w-full p-0.5 bg-[#999D9E]'>
+
+     <img className='-mt-20 h-[125vh] m-auto' src="src/assets/vector man.png" alt="" />
+
+    </div>
   )
 }
 

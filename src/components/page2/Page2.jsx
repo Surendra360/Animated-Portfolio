@@ -1,8 +1,11 @@
 import React from 'react'
+import TextContent1 from './TextContent1'
 
 const Page2 = () => {
   return (
-    <div className='h-screen bg-slate-800'>Page2</div>
+    <div className='h-screen'>
+      <TextContent1 />
+    </div>
   )
 }
 
